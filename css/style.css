@@ -12,6 +12,17 @@ body{
 -moz-box-shadow: 10px 10px 14px -6px rgba(145,145,142,1);
 box-shadow: 10px 10px 14px -6px rgba(145,145,142,1);
 }
+.box-img{
+   width: 100%;
+    text-align: center;
+    height: 200px;
+    margin-top: 10px;
+}
+.box-img img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
 .box-cabecalho{
 	height: 100px;
 	background-color: #34495e;
@@ -97,8 +108,8 @@ box-shadow: 10px 10px 14px -6px rgba(145,145,142,1);
     width: 100%;
     background-color: #ecf0f1;
     border: none;
-    padding: 20px;
-    font-weight: 500;
+    padding: 15px;
+    font-weight: 700;
     float: left;
     margin-top: 8px;
 }

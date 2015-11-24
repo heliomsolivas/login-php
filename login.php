@@ -33,7 +33,7 @@
 						<p>Xavier's Login</p>
 					</div>
 
-					<form class="form-login" action="verificar.php" method="post" >
+					<?php buscaDados(); ?>
   						<div class="form-group">
   							<div class="box-icon">
   							<i class="fa fa-user"></i>
